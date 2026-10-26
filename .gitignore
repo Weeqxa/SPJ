@@ -1,4 +1,16 @@
+# Generated data
 token_matrix.csv
-.venv/
+
+# Python
 __pycache__/
 *.pyc
+
+# Virtual environment
+.venv/
+venv/
+
+# Environment variables
+.env
+
+# Editor
+.vscode/
