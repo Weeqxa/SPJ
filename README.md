@@ -1,6 +1,6 @@
 # 🧠 SPJ – Spracovanie prirodzeného jazyka
 
-Repozitár obsahuje praktické cvičenia z predmetu **Spracovanie prirodzeného jazyka (SPJ)**, vypracované v jazyku Python. Úlohy postupne pokrývajú tokenizáciu, reprezentáciu textu, klasifikáciu SMS správ, latentné sémantické indexovanie, statické embeddingy a neurónové siete.
+Repozitár obsahuje praktické cvičenia z predmetu **Spracovanie prirodzeného jazyka (SPJ)**, vypracované v jazyku Python. Úlohy postupne pokrývajú tokenizáciu, reprezentáciu textu, klasifikáciu SMS správ, latentné sémantické indexovanie, statické a kontextové embeddingy, neurónové siete a architektúru Transformer.
 
 ## 📁 Štruktúra repozitára
 
@@ -10,6 +10,9 @@ Repozitár obsahuje praktické cvičenia z predmetu **Spracovanie prirodzeného 
 | `NLP_spam/` | Základná klasifikácia SMS správ na `ham` a `spam` pomocou binárnej reprezentácie a logistickej regresie. |
 | `TF-IDF/` | TF-IDF váhovanie, vyhľadávanie podobných dokumentov a klasifikácia SMS. |
 | `TF-IDF+LSI+Else/` | Rozšírené experimenty: LSI, Word2Vec (CBOW a Skip-gram), CNN, RNN a LSTM vrátane porovnania výsledkov. |
+| `Contextual_Embeddings_Transformer/` | Kontextové embeddingy pomocou BERT, výpočet kosínusovej podobnosti, vizualizácia výsledkov a teoretické spracovanie ELMo a Transformer architektúry. |
+
+---
 
 ## 🔬 Cvičenie 4 – LSI, Word2Vec a neurónové siete
 
@@ -34,9 +37,11 @@ Projekt `TF-IDF+LSI+Else/` nadväzuje na predchádzajúce cvičenie s TF-IDF. Po
 | **RNN** | **0,9919** | **0,9861** | **0,9530** | **0,9693** |
 | LSTM | 0,9901 | 0,9859 | 0,9396 | 0,9622 |
 
-**Najvyššie F1 skóre v tomto experimente dosiahla jednoduchá RNN: 0,9693.** Hodnoty pochádzajú z uskutočnených behov a môžu sa pri opakovanom trénovaní mierne líšiť.
+**Najvyššie F1 skóre v tomto experimente dosiahla jednoduchá RNN: 0,9693.**
 
-## ▶️ Spustenie cvičenia 4
+Hodnoty pochádzajú z uskutočnených behov a môžu sa pri opakovanom trénovaní mierne líšiť.
+
+### Spustenie cvičenia 4
 
 V termináli prejdite z koreňového priečinka repozitára do projektu:
 
@@ -66,6 +71,141 @@ python comparison.py
 - `comparison.py` používa zaznamenané hodnoty klasických modelov a načítava metriky neurónových sietí z `results/neural_results.csv`.
 - Príkazy treba spúšťať z priečinka `TF-IDF+LSI+Else/`, aby relatívne cesty fungovali správne.
 
+---
+
+## 🧠 Cvičenie 5 – Kontextové embeddingy a Transformer
+
+Projekt `Contextual_Embeddings_Transformer/` sa zameriava na kontextové vektorové reprezentácie slov, architektúru ELMo a Transformer a rozdiely medzi enkóderovými a dekóderovými jazykovými modelmi.
+
+### 1. Kontextové embeddingy
+
+V praktickej časti sa využíva predtrénovaný model **BERT (`bert-base-uncased`)** na vytváranie kontextových embeddingov anglického slova `bank`.
+
+Experiment používa štyri vety s dvoma rôznymi významami cieľového slova:
+
+| Označenie | Veta | Význam slova |
+|---|---|---|
+| S1 | I deposited money in the bank. | Finančná inštitúcia |
+| S2 | She works at the bank. | Finančná inštitúcia |
+| S3 | We sat on the bank of the river. | Breh rieky |
+| S4 | The fisherman walked along the river bank. | Breh rieky |
+
+Model BERT vytvára pre každé použitie slova samostatný embedding s rozmerom **768**. Ak je slovo rozdelené na viacero subtokenov, ich reprezentácie sa spriemerujú.
+
+Na porovnanie výsledných reprezentácií sa používa kosínusová podobnosť (Cosine Similarity).
+
+### 2. Výsledky experimentu
+
+| Porovnanie | Kosínusová podobnosť |
+|---|---:|
+| S1 – S2 (finančná inštitúcia) | 0,7580 |
+| S3 – S4 (breh rieky) | 0,8159 |
+| S1 – S3 | 0,4987 |
+| S1 – S4 | 0,5169 |
+| S2 – S3 | 0,4792 |
+| S2 – S4 | 0,5261 |
+
+Priemerná kosínusová podobnosť medzi reprezentáciami s rôznymi významami je **0,5052**.
+
+Výsledky ukazujú, že reprezentácie slova s rovnakým významom dosahujú v tomto experimente vyššiu podobnosť než reprezentácie s rôznymi významami.
+
+### 3. Vizualizácia výsledkov
+
+Na prehľadné zobrazenie podobnosti medzi jednotlivými embeddingmi sa používa tepelná mapa (Heatmap).
+
+Výstupné súbory:
+
+- `results/similarity_matrix.csv` – matica kosínusových podobností.
+- `results/similarity_heatmap.png` – grafické znázornenie podobností medzi vetami.
+
+### 4. Teoretická časť
+
+Súčasťou cvičenia je aj teoretické spracovanie nasledujúcich tém:
+
+- **Kontextové embeddingy:** rozdiel medzi statickými a kontextovými reprezentáciami slov.
+- **ELMo:** úloha obojsmernej siete BiLSTM, jednotlivé vrstvy modelu a kombinovanie ich reprezentácií.
+- **Transformer:** Self-Attention, Multi-Head Attention, Feed Forward Network a rozdiel medzi enkóderom a dekóderom.
+- **Jazykové modely:** obojsmerný a kauzálny attention, Masked Language Modeling (MLM), Next Sentence Prediction (NSP) a Next Token Prediction (NTP).
+- **Porovnanie modelov:** výhody a obmedzenia enkóderových a dekóderových jazykových modelov.
+
+Teoretické odpovede sú uložené v súbore `theory.md`.
+
+### 5. Štruktúra projektu
+
+```text
+Contextual_Embeddings_Transformer/
+│
+├── experiments/
+│   ├── __init__.py
+│   ├── contextual_embeddings.py
+│   ├── similarity.py
+│   └── visualization.py
+│
+├── results/
+│   ├── similarity_matrix.csv
+│   └── similarity_heatmap.png
+│
+├── main.py
+├── requirements.txt
+├── theory.md
+└── README.md
+```
+
+### 6. Spustenie cvičenia 5
+
+V termináli prejdite z koreňového priečinka repozitára do projektu:
+
+```powershell
+cd 'Contextual_Embeddings_Transformer'
+```
+
+Vytvorte a aktivujte virtuálne prostredie (ak ešte neexistuje):
+
+```powershell
+python -m venv venv
+.\venv\Scripts\Activate.ps1
+```
+
+Nainštalujte potrebné knižnice:
+
+```powershell
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
+```
+
+Spustite experiment:
+
+```powershell
+python main.py
+```
+
+Pri prvom spustení sa z internetu automaticky stiahne predtrénovaný model BERT `bert-base-uncased` z Hugging Face.
+
+**Poznámky:**
+
+- `experiments/contextual_embeddings.py` obsahuje načítanie modelu BERT a extrakciu kontextových embeddingov cieľového slova.
+- `experiments/similarity.py` obsahuje výpočet kosínusovej podobnosti a tvorbu matice podobností.
+- `experiments/visualization.py` zabezpečuje vytvorenie a uloženie tepelnej mapy.
+- `main.py` spúšťa celý experiment, spracováva štyri vstupné vety a vyhodnocuje podobnosť získaných reprezentácií.
+- `results/` obsahuje vygenerované výsledky experimentu.
+- `theory.md` obsahuje teoretické odpovede k jednotlivým témam cvičenia.
+- Príkazy treba spúšťať z priečinka `Contextual_Embeddings_Transformer/`, aby relatívne cesty k výstupným súborom fungovali správne.
+
+---
+
 ## 🛠️ Technológie
 
-Python, NumPy, pandas, SciPy, scikit-learn, Gensim a TensorFlow/Keras. Závislosti pre cvičenie 4 sú uvedené v `TF-IDF+LSI+Else/requirements.txt`.
+V jednotlivých cvičeniach sú použité nasledujúce technológie a knižnice:
+
+- **Python** – hlavný programovací jazyk.
+- **NumPy** – numerické výpočty a práca s vektormi.
+- **pandas** – spracovanie dát a tvorba tabuliek.
+- **SciPy** – vedecké a matematické výpočty.
+- **scikit-learn** – klasifikácia, TF-IDF a LSI.
+- **Gensim** – implementácia Word2Vec.
+- **TensorFlow/Keras** – implementácia neurónových sietí.
+- **PyTorch** – práca s neurónovými sieťami a embeddingmi.
+- **Hugging Face Transformers** – načítanie a využitie predtrénovaného modelu BERT.
+- **Matplotlib** – vizualizácia výsledkov a tvorba heatmap.
+
+Závislosti jednotlivých cvičení sú uvedené v príslušných súboroch `requirements.txt` v jednotlivých projektových priečinkoch.

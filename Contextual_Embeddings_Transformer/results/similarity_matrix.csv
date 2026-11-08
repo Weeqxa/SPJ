@@ -1,0 +1,5 @@
+,S1 - Financial institution,S2 - Financial institution,S3 - River bank,S4 - River bank
+S1 - Financial institution,1.0000001,0.7579679,0.49874845,0.5169017
+S2 - Financial institution,0.7579679,1.0,0.4791524,0.5260814
+S3 - River bank,0.49874845,0.4791524,1.0000002,0.81586635
+S4 - River bank,0.5169017,0.5260814,0.81586635,1.0000001
