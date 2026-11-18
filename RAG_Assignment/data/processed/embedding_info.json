@@ -1,0 +1,11 @@
+{
+    "model": "intfloat/multilingual-e5-small",
+    "dimension": 384,
+    "total_chunks": 358489,
+    "batch_size": 8,
+    "normalized": true,
+    "document_prefix": "passage:",
+    "query_prefix": "query:",
+    "input_file": "D:\\TUKE\\SPJ\\RAG_Assignment\\data\\processed\\chunks.jsonl",
+    "output_file": "D:\\TUKE\\SPJ\\RAG_Assignment\\data\\processed\\embeddings.npy"
+}

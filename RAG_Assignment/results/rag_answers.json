@@ -1,0 +1,110 @@
+[
+    {
+        "timestamp": "2026-11-17T22:53:47.477856",
+        "question": "Ktoré mesto je hlavné mesto Slovenska?",
+        "answer": "Hlavné mesto Slovenska je Bratislava.",
+        "model": "qwen2.5:3b",
+        "top_k": 5,
+        "retrieved_chunks": [
+            {
+                "rank": 1,
+                "chunk_id": "skwiki_sk_702_00013",
+                "document_id": "skwiki_sk_702",
+                "source": "skwiki_sk",
+                "chunk_index": 13,
+                "similarity_score": 0.8630014657974243,
+                "text": "kodifikácii stredoslovenského jazyka Ľudovítom Štúrom a jeho prívržencami. 1891: Otvorenie prvého mosta cez Dunaj (predchodca Starého mosta). 1895: V meste premáva prvá električka. 1909: V meste premávajú prvé trolejbusy. 1918 (10. október): založenie Slovenskej národnej rady s právomocou pre Bratislavu a okolie. 19181939: Súčasť Česko-Slovenska 1918 (31. december): Obsadenie Bratislavy legionármi.Obsadzovanie sa začalo Slamenou búdou 1919 (február): Začal sa používať názov Bratislava. 19391945: Hlavné mesto Prvej Slovenskej republiky. 19451992: Opäť súčasť Česko-Slovenska 1946: Vznik tzv. Veľkej Bratislavy pripojením obcí Devín, Dúbravka, Lamač, Petržalka, Prievoz, Rača a Vajnory. 1971: Obce Čunovo, Devínska Nová Ves, Jarovce, Podunajské Biskupice, Rusovce, Vrakuňa a Záhorská Bystrica boli pripojené k Bratislave. 19691992: Hlavné mesto Slovenska v rámci Česko-Slovenska (1969 – 1990: Hlavné mesto Slovenskej socialistickej republiky, od roku 1990: Hlavné mesto Slovenskej republiky) od roku 1993: Hlavné mesto samostatného Slovenska Vďaka svojej polohe bola Bratislava približne od 13. storočia (oficiálne sčítania existujú až od konca 18. storočia) do približne roku 1870 prevažne mestom nemecky hovoriacich obyvateľov. Po oficiálnom sčítaní obyvateľov v rokoch 1850 až 1851 bolo v Bratislave 42 238 obyvateľov, z toho 31 509 (74,59 %) Nemcov, 7 586 (17,9 %) Slovákov a 3 154 (7,4 %) Maďarov. Veľa Židov bolo zarátaných medzi Nemcov alebo"
+            },
+            {
+                "rank": 2,
+                "chunk_id": "skwiki_sk_702_00032",
+                "document_id": "skwiki_sk_702",
+                "source": "skwiki_sk",
+                "chunk_index": 32,
+                "similarity_score": 0.8625718355178833,
+                "text": "republiky a Národnej banky Slovenska. Je tiež sídlom Úradu Bratislavského samosprávneho kraja. Nachádzajú sa tu aj viaceré veľvyslanectvá. Mestská samospráva náhľad|Primaciálny palác, miesto zasadnutí mestského magistrátu Zákon Národnej rady Slovenskej republiky z 13. septembra 1990 o hlavnom meste Slovenskej republiky Bratislave č. 377/1990 Zb. určil Bratislave štatút hlavného mesta spravovaného magistrátom, mestským zastupiteľstvom a primátorom hlavného mesta SR Bratislavy. Mestské zastupiteľstvo hlavného mesta Slovenskej republiky Bratislavy je orgánom samosprávy mesta a zastupiteľským zborom obyvateľov mesta. Má 45 poslancov, ktorí sú volení priamo v komunálnych voľbách na obdobie štyroch rokov. Primátor hlavného mesta Slovenskej republiky Bratislavy je výkonným a štatutárnym orgánom mesta. Je volený priamo na 4-ročné volebné obdobie. Vedie zasadnutia mestského zastupiteľstva a mestskej rady a podpisuje ich uznesenia. Má troch námestníkov. Mestská rada je iniciatívnym, výkonným a kontrolným orgánom mestského zastupiteľstva. Skladá sa z 10 členov, ktorých volí mestské zastupiteľstvo zo svojich poslancov, starostov všetkých mestských častí a námestníkov primátora. Schádza sa najmenej raz za mesiac. Magistrát hlavného mesta SR Bratislavy plní odborné, administratívne a organizačné práce súvisiace s plnením úloh mestských orgánov. Na čele stojí riaditeľ. Hlavné mesto SR Bratislava je ďalej delené na 17 samosprávnych mestských častí, ktoré sú spravované vlastnými miestnymi zastupiteľstvami na čele so starostami."
+            },
+            {
+                "rank": 3,
+                "chunk_id": "skwiki_sk_702_00003",
+                "document_id": "skwiki_sk_702",
+                "source": "skwiki_sk",
+                "chunk_index": 3,
+                "similarity_score": 0.8603986501693726,
+                "text": "žilo obyvateľov, pričom celý Bratislavský kraj, zahŕňajúci okrem Bratislavy aj priľahlé okresy Malacky, Pezinok a Senec, obývalo obyvateľov. Bratislava je súčasťou širšieho bratislavského metropolitného regiónu, ktorý zahŕňa približne 1,3 milióna obyvateľov. Nachádza sa na úpätí Malých Karpát, medzi Záhorskou a Podunajskou nížinou. Mestom preteká rieka Dunaj, mimo centra aj rieka Morava. Bratislava leží na hranici s Rakúskom a Maďarskom, vďaka čomu je jediným hlavným mestom na svete ležiacim na hranici troch suverénnych štátov. Je sídlom prezidenta, parlamentu aj vlády; samosprávneho kraja, Európskeho orgánu práce, Národnej banky Slovenska, niekoľkých miestnych centrál medzinárodných organizácií, ako aj Slovenskej akadémie vied, viacerých univerzít, divadiel, múzeí, galérií a ďalších inštitúcií. Vizuálnou dominantou scenérie mesta je Bratislavský hrad s charakteristickými štyrmi vežičkami a Dóm svätého Martina. Spomedzi moderných stavieb je najvýraznejší Most SNP na Dunaji. V historickom centre je vyhlásená pamiatková rezervácia. V mestskej časti Devín leží zrúcanina rovnomenného hradu. Geografia Nachádza sa v strednej Európe, na súradniciach 17°10'75'' východnej dĺžky, 48°14'90'' severnej šírky, 126 – nad morom. Rozprestiera sa po oboch brehoch rieky Dunaj, na úpätí pohoria Malé Karpaty. Svojou rozlohou je najväčším mestom Slovenska. Leží v bezprostrednej blízkosti Rakúska a Maďarska. Je jediným hlavným mestom na svete, ktoré hraničí súčasne s dvoma krajinami (na"
+            },
+            {
+                "rank": 4,
+                "chunk_id": "skwiki_sk_702_00035",
+                "document_id": "skwiki_sk_702",
+                "source": "skwiki_sk",
+                "chunk_index": 35,
+                "similarity_score": 0.8573335409164429,
+                "text": "sa nachádzajú v mestskej časti Ružinov. Menšie biznis centrá sa nachádzajú aj v Novom Meste alebo v okolí Patrónky. Sídli tu Burza cenných papierov v Bratislave a Komoditná burza Bratislava. Doprava náhľad|Typická, červeno sfarbená, bratislavská električka Doprava v Bratislave je zabezpečovaná rozsiahlou infraštruktúrou mestskej a diaľkovej dopravy. Bratislava ako hlavné mesto Slovenska je významným dopravným uzlom, má približne 48 km trolejbusových tratí so 106 km trolejového vedenia (2009). Väčšiu koordináciu všetkých systémov hromadnej dopravy zabezpečuje Bratislavská integrovaná doprava od roku 2013. V Bratislave sa takisto nachádza viacero železničných staníc, z ktorých najväčšia je Hlavná stanica. Cez mesto prechádzajú aj diaľnice D1, D2 a D4 a na okraji mesta je medzinárodné Letisko M. R. Štefánika. V roku 2021 bola otvorená nová autobusová stanica Nivy, multifunkčná budova, pozostávajúca tiež z nákupného centra. Kultúra Bratislava je kultúrne centrum Slovenska, pričom tu má sídlo niekoľko múzeí, galérií, divadiel, vedeckých a vzdelávacích inštitúcií. Bola tu založená prvá univerzita na území Slovenska, Universitas Istropolitana. Mesto samotné je jednou z najvýznamnejších slovenských turistických destinácií. Centrálna časť Starého Mesta je pamiatkovou zónou, historické jadro spolu s Bratislavským hradom a Podhradím je pamiatkovou rezerváciou. Divadlá náhľad|Historická budova Slovenského národného divadla V Bratislave má sídlo Slovenské národné divadlo, ktoré od"
+            },
+            {
+                "rank": 5,
+                "chunk_id": "skwiki_sk_702_00009",
+                "document_id": "skwiki_sk_702",
+                "source": "skwiki_sk",
+                "chunk_index": 9,
+                "similarity_score": 0.8527138829231262,
+                "text": "hlavnom meste Slovenskej republiky Bratislave udelil v roku 1990 mestu ako symboly erb, zástavu a pečať. Podľa zákona erb Bratislavy tvorí „v červenom neskorogotickom štíte strieborné trojvežové opevnenie s bránou, na červených strechách veží sú po dve zlaté gule so zlatými hrotmi a v bráne zlaté, do polovice vytiahnuté mreže“. V Heraldickom registri Slovenskej republiky je zaregistrovaný erb obce Bratislava s rozdielnym blazonovaním: „V červenom štíte strieborné trojvežové opevnenie s oknami a bránou, na červených strechách veží vždy po dve zlaté gule, v bráne zlatá, do polovice vytiahnutá mreža“. Zaregistrovaný blazón na rozdiel od znenia v zákone neopisuje tvar štítu (ktorý nie je vyobrazený ani na pôvodnej donačnej listine), trojvežovému opevneniu pridáva do opisu okná, zlatým guliam neopisuje zlaté hroty a množné číslo mreže mení na jednotné číslo mreža. Na vyobrazení erbu v registri zlaté hroty na guliach skutočne chýbajú, a na prostrednej veži zobrazuje pod strechou štyri okná, na rozdiel od troch okien vyobrazených na donačnej listine, aj na oficiálnej modernej verzii. Opevnenie v erbe Bratislavy sa zvykne nesprávne vysvetľovať ako vyobrazenie hradu, alebo ako vyobrazenie troch bratislavských brán: Michalskej brány, Vydrickej brány a brány svätého Vavrinca (Laurinskej). Ide však o všeobecný stredoveký symbol mesta. Zástava náhľad|Zástavy Bratislavy po"
+            }
+        ]
+    },
+    {
+        "timestamp": "2026-11-18T02:46:48.569405",
+        "question": "Ktoré mesto je hlavné mesto Slovenska?",
+        "answer": "Hlavné mesto Slovenska je Bratislava.",
+        "model": "qwen2.5:3b",
+        "top_k": 5,
+        "retrieved_chunks": [
+            {
+                "chunk_id": "skwiki_sk_5800_00000",
+                "document_id": "skwiki_sk_5800",
+                "source": "skwiki_sk",
+                "chunk_index": 0,
+                "similarity_score": 0.9007630348205566,
+                "text": "thumb|Mapa znázorňuje štáty, ktorých hlavné mesto nie je zároveň aj ich najväčším mestom Hlavné mesto je správne centrum daného štátu (krajiny), alebo mesto oficiálne vyhlásené za hlavné. Hlavným mestom Slovenska je Bratislava. V hlavnom meste zvyčajne sídlia najvyššie štátne inštitúcie ako parlament, najvyšší súd či vláda, ale nemusí to byť vždy tak (napr. hlavným mestom Holandska je Amsterdam, ale všetky inštitúcie sídlia v Haagu). Hlavné mesto je tiež zvyčajne najväčším mestom krajiny, ale opäť to nie je pravidlom (pozri mapku). Najväčšie hlavné mestá Najväčšie hlavné mestá na každom kontinente, resp. svetadiele (podľa populácie): Afrika: Káhira (11 146 000) Austrália: Canberra (420 000) Ázia: Tokio (35 237 000) Európa: Moskva (13 600 000) Južná Amerika: Buenos Aires (14 230 000) Severná Amerika: Mexiko (17 809 471) Oceánia: Wellington (445 400) Zoznam hlavných miest",
+                "rank": 1
+            },
+            {
+                "chunk_id": "skwiki_sk_123134_00000",
+                "document_id": "skwiki_sk_123134",
+                "source": "skwiki_sk",
+                "chunk_index": 0,
+                "similarity_score": 0.8656896352767944,
+                "text": "Bratislava môže byť: hlavné mesto Slovenska, pozri Bratislava región a región cestovného ruchu na Slovensku, ktorý zahŕňa mesto Bratislava a jej blízke okolie, pozri Bratislavský región okres na Slovensku, resp. v Česko-Slovensku v rokoch 19901996, pozri Bratislava (okres) Bratislavský kraj: súčasný, pozri Bratislavský kraj S. 18 v rokoch 19491960, pozri Bratislavský kraj (1949 – 1960) Bratislavský samosprávny kraj VZN 3/07 obce Slovenský Grob čl. 5 Bratislavská župa Ottov historický atlas Slovensko. 2009, S. 86-87 Bratislavský hrad sídlo v Brazílii, pozri Cambé#Colônia Bratislava planétka, pozri 4018 Bratislava názov lode na Brnianskej priehrade, pozri Bratislava (loď, 1956) prvé meno, pozri Bratislava (prvé meno) názov rýchlolode na Dunaji, pozri Bratislava (rýchloloď) vedecká revue z rokov 1927 – 1937, pozri Bratislava (vedecká revue) ročenka Mestského múzea v Bratislave od roku 1965, pozri Bratislava (ročenka) štvrťročník Národného výboru hlavného mesta Slovenskej socialistickej republiky v rokoch 19741990, pozri Bratislava (štvrťročník)",
+                "rank": 2
+            },
+            {
+                "chunk_id": "skwiki_sk_702_00013",
+                "document_id": "skwiki_sk_702",
+                "source": "skwiki_sk",
+                "chunk_index": 13,
+                "similarity_score": 0.865632176399231,
+                "text": "loženie Slovenskej národnej rady s právomocou pre Bratislavu a okolie. 19181939: Súčasť Česko-Slovenska 1918 (31. december): Obsadenie Bratislavy legionármi.Obsadzovanie sa začalo Slamenou búdou 1919 (február): Začal sa používať názov Bratislava. 19391945: Hlavné mesto Prvej Slovenskej republiky. 19451992: Opäť súčasť Česko-Slovenska 1946: Vznik tzv. Veľkej Bratislavy pripojením obcí Devín, Dúbravka, Lamač, Petržalka, Prievoz, Rača a Vajnory. 1971: Obce Čunovo, Devínska Nová Ves, Jarovce, Podunajské Biskupice, Rusovce, Vrakuňa a Záhorská Bystrica boli pripojené k Bratislave. 19691992: Hlavné mesto Slovenska v rámci Česko-Slovenska (1969 – 1990: Hlavné mesto Slovenskej socialistickej republiky, od roku 1990: Hlavné mesto Slovenskej republiky) od roku 1993: Hlavné mesto samostatného Slovenska Vďaka svojej polohe bola Bratislava približne od 13. storočia (oficiálne sčítania existujú až od konca 18. storočia) do približne roku 1870 prevažne mestom nemecky hovoriacich obyvateľov. Po oficiálnom sčítaní obyvateľov v rokoch 1850 až 1851 bolo v Bratislave 42 238 obyvateľov, z toho 31 509 (74,59 %) Nemcov, 7 586 (17,9 %) Slovákov a 3 154 (7,4 %) Maďarov. Veľa Židov bolo zarátaných medzi Nemcov alebo Maďarov. V roku 1890 prebehlo ďalšie sčítanie a tu sa už prejavila silná maďarizácia. V meste malo žiť 52 441 obyvateľov, z toho 31 404 Nemcov, 10 433 Maďarov a 8 709 Slovákov. V roku 1907 tu žilo vyše 70-tisíc obyvateľov, z čoho tretinu tvorili Maďari, polovicu Nemci, sedminu Slováci, okrem toho ešte Chorváti, Srbi, Bulhari, Rumuni, a iné národnosti.Bratislava – Pozsony – Pressburg 1907 (Ilustrovaný sprievodca)",
+                "rank": 3
+            },
+            {
+                "chunk_id": "skwiki_sk_68596_00000",
+                "document_id": "skwiki_sk_68596",
+                "source": "skwiki_sk",
+                "chunk_index": 0,
+                "similarity_score": 0.8637474775314331,
+                "text": "Staré Mesto môže byť mestská časť (časť mesta) na Slovensku v: Bratislave, pozri Bratislava – mestská časť Staré Mesto Košiciach, pozri Košice – mestská časť Staré Mesto Nitra, pozri Staré Mesto (Nitra) Prievidza, pozri Staré Mesto (Prievidza) Liptovský Mikuláš, pozri Staré Mesto (Liptovský Mikuláš) Žilina, pozri Staré Mesto (Žilina) Ružomberok, pozri Staré Mesto (Ružomberok) fiktívne mesto na Slovensku, v ktorom sa odohráva časť románu Demokrati Staré mesto môže byť: mesto, ktoré je staré historické centrum časť týchto miest na Slovensku: Poprad, pozri Poprad (časť mesta) Dolný Kubín, pozri Dolný Kubín (mestská časť) Spišská Nová Ves, pozri Staré mesto (Spišská Nová Ves) Trnava, súčasť mestskej časti Trnava-stred, pozri Staré mesto (Trnava) Pozri aj (Staré Mestá/Staré mestá v zahraničí) Staré Město İçəri Şəhər Ha-Ir ha-Atika",
+                "rank": 4
+            },
+            {
+                "chunk_id": "skwiki_sk_702_00033",
+                "document_id": "skwiki_sk_702",
+                "source": "skwiki_sk",
+                "chunk_index": 33,
+                "similarity_score": 0.8617124557495117,
+                "text": "centrá sa umiestňujú v lokalite Mlynské Nivy a v okolí v mestskej časti Ružinov, napríklad Bratislava Business Center IV, Apollo Business Center I a II, ktoré sa nachádzajú v mestskej časti Ružinov. Menšie biznis centrá sa nachádzajú aj v Novom Meste alebo v okolí Patrónky. Sídli tu Burza cenných papierov v Bratislave a Komoditná burza Bratislava. Doprava náhľad|Typická, červeno sfarbená, bratislavská električka Doprava v Bratislave je zabezpečovaná rozsiahlou infraštruktúrou mestskej a diaľkovej dopravy. Bratislava ako hlavné mesto Slovenska je významným dopravným uzlom, má približne 48 km trolejbusových tratí so 106 km trolejového vedenia (2009). Väčšiu koordináciu všetkých systémov hromadnej dopravy zabezpečuje Bratislavská integrovaná doprava od roku 2013. V Bratislave sa takisto nachádza viacero železničných staníc, z ktorých najväčšia je Hlavná stanica. Cez mesto prechádzajú aj diaľnice D1, D2 a D4 a na okraji mesta je medzinárodné Letisko M. R. Štefánika. V roku 2021 bola otvorená nová autobusová stanica Nivy, multifunkčná budova, pozostávajúca tiež z nákupného centra. Kultúra Bratislava je kultúrne centrum Slovenska, pričom tu má sídlo niekoľko múzeí, galérií, divadiel, vedeckých a vzdelávacích inštitúcií. Bola tu založená prvá univerzita na území Slovenska, Universitas Istropolitana. Mesto samotné je jednou z najvýznamnejších slovenských turistických destinácií. Centrálna časť Starého Mesta je pamiatkovou zónou, historické jadro spolu s Bratislavským hradom a Podhradím je pamiatkovou rezerváciou. Divadlá náhľad|Historická budova Slovenského národného divadla V Bratislave má sídlo Slovenské národné divadlo, ktoré od roku 2007 sídli v dvoch budovách, v historickej budove a v novostavbe pri Dunaji, v novej modernej mestskej štvrti nazvanej Bratislavský downtown.",
+                "rank": 5
+            }
+        ]
+    }
+]

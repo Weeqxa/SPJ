@@ -1,16 +1,74 @@
-# Generated data
-token_matrix.csv
 
-# Python
+# =====================================================
+# PYTHON
+# =====================================================
+
 __pycache__/
-*.pyc
+*.py[cod]
+*.pyo
+*.pyd
+*.so
 
-# Virtual environment
+# =====================================================
+# VIRTUAL ENVIRONMENTS
+# =====================================================
+
 .venv/
 venv/
+env/
 
-# Environment variables
+# =====================================================
+# ENVIRONMENT VARIABLES
+# =====================================================
+
 .env
+.env.*
+!.env.example
 
-# Editor
+# =====================================================
+# EDITORS
+# =====================================================
+
 .vscode/
+.idea/
+
+# =====================================================
+# HUGGING FACE CACHE
+# =====================================================
+
+RAG_cache/
+.cache/
+huggingface/
+
+# =====================================================
+# GENERATED DATA
+# =====================================================
+
+/RAG_Assignment/data/processed/chunks.jsonl
+/RAG_Assignment/data/processed/chunks_sample.jsonl
+/RAG_Assignment/data/processed/embeddings.npy
+/RAG_Assignment/data/processed/embeddings_sample.npy
+/RAG_Assignment/token_matrix.csv
+
+# Raw downloaded datasets
+data/raw/
+
+# =====================================================
+# TEMPORARY FILES
+# =====================================================
+
+*.tmp
+*.log
+*.bak
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# =====================================================
+# SYSTEM FILES
+# =====================================================
+
+.DS_Store
+Thumbs.db
+desktop.ini

@@ -1,0 +1,23 @@
+{
+    "wiki": {
+        "name": "PiotrSty/skwiki-slovak",
+        "documents": 127286,
+        "columns": [
+            "id",
+            "text",
+            "source",
+            "added",
+            "created",
+            "token_count",
+            "license",
+            "author"
+        ]
+    },
+    "qa": {
+        "name": "TUKE-DeutscheTelekom/skquad",
+        "splits": {
+            "train": 81582,
+            "validation": 9583
+        }
+    }
+}
