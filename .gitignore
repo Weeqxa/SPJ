@@ -50,6 +50,9 @@ huggingface/
 /RAG_Assignment/data/processed/embeddings_sample.npy
 /RAG_Assignment/token_matrix.csv
 
+# Generated tokenization data
+NLP_tokenizacia/token_matrix.csv
+
 # Raw downloaded datasets
 data/raw/
 
