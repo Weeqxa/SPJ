@@ -1,0 +1,14 @@
+{
+    "total_questions": 88,
+    "model": "qwen2.5:3b",
+    "top_k": 5,
+    "metrics": {
+        "standalone_em": 0.0,
+        "standalone_f1": 0.094950578633253,
+        "document_em": 0.0,
+        "document_f1": 0.0648312312610328,
+        "rag_em": 0.0,
+        "rag_f1": 0.3057703421038957,
+        "rag_grounding": 0.8311406365903296
+    }
+}

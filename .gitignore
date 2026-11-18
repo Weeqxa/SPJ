@@ -49,6 +49,8 @@ huggingface/
 /RAG_Assignment/data/processed/embeddings.npy
 /RAG_Assignment/data/processed/embeddings_sample.npy
 /RAG_Assignment/token_matrix.csv
+/RAG_Assignment/data/processed/document_embeddings.npy
+/RAG_Assignment/data/processed/document_metadata.jsonl
 
 # Generated tokenization data
 NLP_tokenizacia/token_matrix.csv
